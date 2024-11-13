@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabf9ee1841b042b18950ffb8e4a9215, type: 3}
+  m_Name: ViitorCloudBuildData
+  m_EditorClassIdentifier: 
+  scenes:
+  - Garage
+  buildFolderBase: Builds/
+  autoUpdateAndroidVersion: 1
+  autoUpdateIOSBuildNumber: 1
+  buildConfigList:
+  - name: iOS-Release
+    target: 0
+    isDevelopmentBuild: 0
+    isBetaBuild: 0
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: iOS-Debug
+    target: 0
+    isDevelopmentBuild: 1
+    isBetaBuild: 0
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: iOS-Beta
+    target: 0
+    isDevelopmentBuild: 0
+    isBetaBuild: 1
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: Android-Release
+    target: 1
+    isDevelopmentBuild: 0
+    isBetaBuild: 0
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: Android-Debug
+    target: 1
+    isDevelopmentBuild: 1
+    isBetaBuild: 0
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: Android-Beta
+    target: 1
+    isDevelopmentBuild: 0
+    isBetaBuild: 1
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: Winodws-Release
+    target: 2
+    isDevelopmentBuild: 0
+    isBetaBuild: 0
+    launchExecutable: 1
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: Windows-Debug
+    target: 1
+    isDevelopmentBuild: 1
+    isBetaBuild: 0
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: Windows-Beta
+    target: 2
+    isDevelopmentBuild: 0
+    isBetaBuild: 1
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: OsX-Release
+    target: 3
+    isDevelopmentBuild: 0
+    isBetaBuild: 0
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: OsX-Debug
+    target: 3
+    isDevelopmentBuild: 1
+    isBetaBuild: 0
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
+  - name: OsX-Beta
+    target: 3
+    isDevelopmentBuild: 0
+    isBetaBuild: 1
+    launchExecutable: 0
+    alwaysIncludedShaders: []
+    alwaysIncludedShadersVariantsCollection: []
+    scenes: []
+    productName: 
+    companyName: 
+    bundleId: 
+    buildPath: 
+    iconPath: 
+    splashScreenLogo: 
+    splashScreenLogoBg: 
+    blurSplashBg: 0
+    portrait: 0
+    portraitUpsideDown: 0
+    landscapeLeft: 0
+    landscapeRight: 0
+    compileDefineAdditions: []
+    compileDefineRemovals: []
